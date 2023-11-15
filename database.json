@@ -6,71 +6,56 @@
   "users": [
     {
       "id": 1,
-      "firstName": "Administrator",
-      "lastName": "",
-      "username": "admin",
-      "email": "admin@gmail.com",
-      "password": "admin",
+      "email": "admin@admin.adm",
+      "password": "Admin0",
       "userType": "sysadmin",
-      "createdAt": 1609483221000,
-      "modifiedAt": 1609483221000
+      "createdAt": 1700078132517,
+      "modifiedAt": 1700078132517
     },
     {
       "id": 2,
-      "firstName": "Santiago",
-      "lastName": "Feresin",
-      "username": "ferensi",
-      "email": "ferensi@gmail.com",
-      "password": "1234",
+      "email": "santi@gmail.com",
+      "password": "Santi1234",
       "userType": "admin",
-      "createdAt": 1609483221000,
-      "modifiedAt": 1609483221000
-    },
-    {
-      "id": 3,
-      "firstName": "Juan Carlos",
-      "lastName": "Bodoque",
-      "username": "jcbodoque",
-      "email": "jcbodoque@gmail.com",
-      "password": "1234",
-      "userType": "user",
-      "createdAt": 1609483221000,
-      "modifiedAt": 1609483221000
+      "createdAt": 1700078946097,
+      "modifiedAt": 1700078946097
     }
   ],
   "products": [
     {
       "id": 1,
-      "name": "Guitarra criolla",
-      "price": 100000,
-      "quantity": 18,
-      "thumbnail": "https://i.imgur.com/POuBdTC.png",
-      "image": "https://i.imgur.com/zDOBVo7.png",
+      "instrument": "Guitarra criolla",
       "instrumentType": "string",
+      "price": 100000,
+      "stock": 18,
       "createdAt": 1610632995000,
       "modifiedAt": 1615620960000
     },
     {
       "id": 2,
-      "name": "Bajo",
-      "price": 150000,
-      "quantity": 15,
-      "thumbnail": "https://i.imgur.com/PV2jVnm.png",
-      "image": "https://i.imgur.com/qxOPCCk.png",
+      "instrument": "Bajo",
       "instrumentType": "string",
+      "price": 150000,
+      "stock": 15,
       "createdAt": 1615796160000,
       "modifiedAt": 1615796160000
     },
     {
       "id": 3,
-      "name": "Batería",
-      "price": 300000,
-      "quantity": 11,
-      "thumbnail": "https://i.imgur.com/2ABbcFR.png",
-      "image": "https://i.imgur.com/d9MU8VT.png",
+      "instrument": "Batería",
       "instrumentType": "percussion",
+      "price": 300000,
+      "stock": 11,
       "createdAt": 1614190320000,
       "modifiedAt": 1614190320000
+    },
+    {
+      "id": 4,
+      "instrument": "Kalimba",
+      "price": 70000,
+      "stock": 16,
+      "createdAt": 1700064815674,
+      "modifiedAt": 1700064815674
     }
   ]
 }
