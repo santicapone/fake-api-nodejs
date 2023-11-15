@@ -1,6 +1,7 @@
 {
   "protectedResources": {
     "users": ["GET", "POST", "PUT", "PATCH", "DELETE"],
+    "sales": ["GET", "POST", "PUT", "PATCH", "DELETE"],
     "products": ["POST", "PUT", "PATCH", "DELETE"]
   },
   "users": [
@@ -19,6 +20,48 @@
       "userType": "admin",
       "createdAt": 1700078946097,
       "modifiedAt": 1700078946097
+    },
+    {
+      "id": 3,
+      "email": "pepito@gmail.com",
+      "password": "Pepito1234",
+      "userType": "user",
+      "createdAt": 1700073912874,
+      "modifiedAt": 1700073912874
+    }
+  ],
+  "sales": [
+    {
+      "id": 1,
+      "userID": 3,
+      "content": [
+        {
+          "productID": 1,
+          "price": 100000,
+          "quantity": 1
+        },
+        {
+          "productID": 2,
+          "price": 150000,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "userID": 2,
+      "content": [
+        {
+          "productID": 2,
+          "price": 150000,
+          "quantity": 4
+        },
+        {
+          "productID": 3,
+          "price": 300000,
+          "quantity": 1
+        }
+      ]
     }
   ],
   "products": [
