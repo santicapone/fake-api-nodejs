@@ -26,8 +26,7 @@
       "email": "pepito@gmail.com",
       "password": "Pepito1234",
       "userType": "user",
-      "createdAt": 1700073912874,
-      "modifiedAt": 1700073912874
+      "modifiedAt": 1700183290242
     }
   ],
   "sales": [
@@ -36,12 +35,12 @@
       "userID": 3,
       "content": [
         {
-          "productID": 1,
+          "instrument": "Guitarra criolla",
           "price": 100000,
           "quantity": 1
         },
         {
-          "productID": 2,
+          "instrument": "Bajo",
           "price": 150000,
           "quantity": 3
         }
@@ -52,12 +51,12 @@
       "userID": 2,
       "content": [
         {
-          "productID": 2,
+          "instrument": "Bajo",
           "price": 150000,
           "quantity": 4
         },
         {
-          "productID": 3,
+          "instrument": "Batería",
           "price": 300000,
           "quantity": 1
         }
