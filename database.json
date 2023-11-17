@@ -26,6 +26,7 @@
       "email": "pepito@gmail.com",
       "password": "Pepito1234",
       "userType": "user",
+      "createdAt": 1700073912874,
       "modifiedAt": 1700183290242
     }
   ],
@@ -69,9 +70,9 @@
       "instrument": "Guitarra criolla",
       "instrumentType": "string",
       "price": 100000,
-      "stock": 18,
-      "createdAt": 1610632995000,
-      "modifiedAt": 1615620960000
+      "stock": 5,
+      "createdAt": 1700064815674,
+      "modifiedAt": 1700226763693
     },
     {
       "id": 2,
@@ -79,8 +80,8 @@
       "instrumentType": "string",
       "price": 150000,
       "stock": 15,
-      "createdAt": 1615796160000,
-      "modifiedAt": 1615796160000
+      "createdAt": 1700064815674,
+      "modifiedAt": 1700064815674
     },
     {
       "id": 3,
@@ -88,8 +89,8 @@
       "instrumentType": "percussion",
       "price": 300000,
       "stock": 11,
-      "createdAt": 1614190320000,
-      "modifiedAt": 1614190320000
+      "createdAt": 1700064815674,
+      "modifiedAt": 1700064815674
     },
     {
       "id": 4,
