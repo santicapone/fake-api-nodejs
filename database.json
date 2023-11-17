@@ -1,6 +1,6 @@
 {
   "protectedResources": {
-    "users": ["GET", "POST", "PUT", "PATCH", "DELETE"],
+    "users": ["POST", "PUT", "PATCH", "DELETE"],
     "sales": ["GET", "POST", "PUT", "PATCH", "DELETE"],
     "products": ["POST", "PUT", "PATCH", "DELETE"]
   },
